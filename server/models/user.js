@@ -8,7 +8,7 @@ module.exports = function(sequelize, DataTypes) {
     token: DataTypes.STRING,
     email: DataTypes.STRING,
     name: DataTypes.STRING,
-    // password: DataTypes.STRING,
+    password: DataTypes.STRING,
     isAdmin: DataTypes.BOOLEAN,
     sentEmailsCount: { type: DataTypes.INTEGER, defaultValue: 0 }
   }, {
